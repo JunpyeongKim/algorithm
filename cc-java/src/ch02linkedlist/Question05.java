@@ -11,7 +11,21 @@ import java.util.Stack;
  *     연관문제:
  *      각 자릿수가 정상적으로 배열된다고 가정하고 구현해 보자.
  *
- * 2.5 Sum Lists:
+ * 2.4 (5E)
+ *      You have two numbers represented by a linked list, where each node contains a single digit.
+ *      The digits are stored in reverse order, such that the 1’s digit is at the head of the list.
+ *     Write a function that adds the two numbers and returns the sum as a linked list.
+ *
+ *     EXAMPLE
+ *      Input: (3 -> 1 -> 5) + (5 -> 9 -> 2)
+ *      Output: 8 -> 0 -> 8
+ *
+ *     FOLLOW UP
+ *      Suppose the digits are stored in forward order. Repeat the above problem.
+ *      Input: (6 -> 1 -> 7) + (2 -> 9 -> 5). That is, 617 + 295.
+ *      Output: 9 - > 1 - > 2. That is, 912.
+ *
+ * 2.5 (6E) Sum Lists:
  *      You have two numbers represented by a linked list, where each node contains a single digit.
  *      The digits are stored in reverse order, such that the 1’s digit is at the head of the list.
  *     Write a function that adds the two numbers and returns the sum as a linked list.

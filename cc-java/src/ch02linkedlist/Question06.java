@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * 2.6 순환 연결 리스트 (circular linked list)가 주어졌을 때, 순환되는 부분의 첫 노드를 반환하는 알고리즘을 구하라.
  *
- * 2.5 Given a circular linked list,
+ * 2.5 (5E) Given a circular linked list,
  *     implement an algorithm which returns node at the beginning of the loop.
  *
  *     DEFINITION
@@ -19,6 +19,16 @@ import java.util.Set;
  *      Input: A -> B -> C -> D -> E -> C [the same C as earlier]
  *      Output: C
  *
+ * 2.8 (6E) Loop Detection:
+ *      Given a circular linked list, implement an algorithm that returns the node at the beginning of the loop.
+ *
+ *      DEFINITION
+ *          Circular linked list: A (corrupt) linked list in which a node's next pointer points to an earlier node,
+ *          so as to make a loop in the linked list.
+ *
+ *      EXAMPLE
+ *          Input: A -) B -) C -) 0 -) E - ) C [the same C as earlier]
+ *          Output: C
  */
 public class Question06 {
 

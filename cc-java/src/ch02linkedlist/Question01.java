@@ -11,7 +11,13 @@ import java.util.Set;
  *     연관 문제:
  *      임시 버퍼가 허용되지 않는 상황에서 이 문제를 어떻게 해결할수 있겠는가?
  *
- * 2.1 Remove Dups:
+ * 2.1 (5E)
+ *      Write code to remove duplicates from an unsorted linked list.
+ *
+ *      FOLLOW UP:
+ *          How would you solve this problem if a temporary buffer is not allowed?
+ *
+ * 2.1 (6E) Remove Dups:
  *      Write code to remove duplicates from an unsorted linked list.
  *
  *      FOLLOW UP:

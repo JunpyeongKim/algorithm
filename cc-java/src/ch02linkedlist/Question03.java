@@ -11,7 +11,15 @@ import lib.LinkedListNode;
  *          입력: 연결 리스트 a->b->c->d->e 의 노드 c
  *          출력: 아무것도 반환할 필요없고, 결과로 연결리스트 a->b->d->e 가 되어 있으면 OK
  *
- * 2.3 Delete Middle Node:
+ * 2.3 (5E)
+ *      Implement an algorithm to delete a node in the middle (Le., any node but the first and last node,
+ *      not necessarily the exact middle) of a singly linked list, given only access to that node.
+ *
+ *      EXAMPLE:
+ *          Input: the node ‘c’ from the linked list a->b->c->d->e
+ *          Result: nothing is returned, but the new linked list looks like a->b->d->e
+ *
+ * 2.3 (6E) Delete Middle Node:
  *      Implement an algorithm to delete a node in the middle (Le., any node but the first and last node,
  *      not necessarily the exact middle) of a singly linked list, given only access to that node.
  *

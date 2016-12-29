@@ -5,7 +5,7 @@ import lib.LinkedListNode;
 /**
  * 2.7 주어진 연결 리스트가 회문(palindrome)인지 검사하는 함수를 작성하라.
  *
- * 2.6 Palindrome:
+ * 2.6 (6E) Palindrome:
  *      Implement a function to check if a linked list is a palindrome.
  */
 public class Question07 {

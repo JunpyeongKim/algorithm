@@ -6,7 +6,7 @@ import lib.LinkedListNode;
  * 2.4 x값을 갖는 노드를 기준으로 연결 리스트를 나누는 코드를 작성하라.
  *     x보다 작은 값을 갖는 노드가 x와 같거나 더 큰 값을 갖는 노드보다 앞쪽에 오도록 하면 된다.
  *
- * 2.4 Partition:
+ * 2.4 (6E) Partition:
  *      Write code to partition a linked list around a value x,
  *      such that all nodes less than x come before all nodes greater than or equal to x.
  *      If x is contained within the list, the values of x only need to be after the elements less than x (see below).

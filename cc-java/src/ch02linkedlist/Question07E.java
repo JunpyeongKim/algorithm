@@ -1,7 +1,7 @@
 package ch02linkedlist;
 
 /**
- * 2.7 Intersection:
+ * 2.7 (6E) Intersection:
  *      Given two (singly) linked lists, determine if the two lists intersect.
  *      Return the intersecting node.
  *
