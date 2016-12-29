@@ -34,7 +34,23 @@ public class Question02 {
         return null;
     }
 
+    //--------------------------------------------------------------------------------
+    // Solution #1:
+    //--------------------------------------------------------------------------------
+    public static int printKthToLast(LinkedListNode head, int k) {
+        if (head == null)
+            return 0;
+
+        int index = printKthToLast(head.getNext(), k) + 1;
+        if (index == k) {
+            System.out.println(k + "th to last node is " + head.getData());
+        }
+
+        return index;
+    }
+
     public static void main(String[] args) {
+        /*
         LinkedListNode head = AssortedMethods.randomLinkedList(10, 0, 10);
         System.out.println(head.printForward());
 
@@ -49,5 +65,13 @@ public class Question02 {
         }
 
         nthToLast02(head, nth); //TODO:
+        */
+
+        int[] array = {0, 1, 2, 3, 4, 5, 6};
+        LinkedListNode head = AssortedMethods.createLinkedListFromArray(array);
+        for (int i = 0; i <= array.length + 1; i++) {
+            System.out.print(i + ": ");
+            printKthToLast(head, i);
+        }
     }
 }
